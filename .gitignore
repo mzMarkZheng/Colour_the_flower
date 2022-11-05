@@ -1,7 +1,9 @@
-Checkpoint/
+Checkpoint/discriminator.pth.tar
+Checkpoint/generator.pth.tar
 Example_results/
 Data/test/
 Data/train/
 kaggle.json
 Generate_examples/input/
 Generate_examples/output/
+__pycache__/
