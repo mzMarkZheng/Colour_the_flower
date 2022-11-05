@@ -10,11 +10,15 @@ The model uses Generative Adversarial Networks (GANs) to colour a black and whit
 The dataset was obtained from [kaggle](https://www.kaggle.com/datasets/vaibhavrmankar/colour-the-flower-gan-data). After downloading and extracting, the downloaded dataset can be used to replace the `Data` folder. The `Data` folder requires `test` and `train` subfolders, which is what the kaggle dataset has. 
 
 ### Setting up the environment
-TODO
+First remove all of the empty `.gitignore` files within the folders. These exist to bypass github not allowing empty directories.
 
-### Using GPU and CUDA
-TODO
+To install using conda:
 
+Tested using `python 3.7.13`.
+Change to the directory where the project is (and subsequently where the `environment.yml` file is located) and run:
+```bash
+conda env create -f environment.yml
+```
 
 ## Results
 Input:
