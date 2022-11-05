@@ -7,7 +7,7 @@ The model uses Generative Adversarial Networks (GANs) to colour a black and whit
 
 ## Setup
 ### Dataset
-The dataset was obtained from [kaggle](https://www.kaggle.com/datasets/vaibhavrmankar/colour-the-flower-gan-data). After downloading and extracting, the downloaded dataset can be used to replace the `Data` folder. The `Data` folder requires `test` and `train` subfolders, which is what the kaggle dataset has. 
+The dataset was obtained from [kaggle](https://www.kaggle.com/datasets/vaibhavrmankar/colour-the-flower-gan-data). After downloading and extracting, the downloaded dataset can be used to replace the `Data` folder. The `Data` folder requires `test` and `train` subfolders, which is what the kaggle dataset has. If you wish to use your own dataset, you will need to have images in the same format as the kaggle dataset, or modify the code to suit your needs.
 
 ### Setting up the environment
 First remove all of the empty `.gitignore` files within the folders. These exist to bypass github not allowing empty directories.
