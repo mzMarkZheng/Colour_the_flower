@@ -23,7 +23,6 @@ def train_func(disc, gen, loader, optim_disc, optim_gen, l1_loss, bce, g_scaler,
     # tqdm is for progress bar
     loop = tqdm(loader, leave=True)
     for idx, (x, y) in enumerate(loop):
-
         # x is bw image, y is colour image
         x = x.to(config.DEVICE)
         y = y.to(config.DEVICE)
