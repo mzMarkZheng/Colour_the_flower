@@ -20,6 +20,9 @@ Change to the directory where the project is (and subsequently where the `enviro
 conda env create -f environment.yml
 ```
 
+### Training
+Training can be done either by running the notebook or running `main.py`.
+
 ## Results
 Input:
 ![blackandwhite](https://user-images.githubusercontent.com/78593106/200111048-6b6d8fe1-18b4-47c8-bf12-e2a960f1e9a4.jpg)
